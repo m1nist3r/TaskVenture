@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "53745357710",
+    "firebase_url": "https://taskventure-c7a17.firebaseio.com",
+    "project_id": "taskventure-c7a17",
+    "storage_bucket": "taskventure-c7a17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53745357710:android:bc4758e3cc2e55e5320adf",
+        "android_client_info": {
+          "package_name": "com.m1nist3r.taskventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53745357710-tqbctacvuh2ubq2q5f20330l2ljr6kdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.m1nist3r.taskventure",
+            "certificate_hash": "1f75666968a0d16300e8be2692074121ab672170"
+          }
+        },
+        {
+          "client_id": "53745357710-jtk9926j85eqn6lf5ar5d0lt79cmvqf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9TEH7hn_BBL0Nsam_5ZDntsHma_b3CAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53745357710-jtk9926j85eqn6lf5ar5d0lt79cmvqf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

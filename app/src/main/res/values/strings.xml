@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">TaskVenture</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Sign Up</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="passwordless_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="passwordless_title_text">Passwordless Sign In</string>
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="generic_title_text">OAuth Sign In</string>
+    <string name="generic_signin_fmt">Sign In with %s</string>
+    <string name="generic_status_fmt">User: %s (%s)</string>
+    <string name="generic_label_provider">Provider:</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+
+    <string name="enroll_mfa">Enroll MFA</string>
+    <string name="unenroll_mfa">Unenroll MFA</string>
+    <string name="reload">Reload</string>
+
+    <string name="custom_auth_signin_status_user">User ID: %s</string>
+    <string name="custom_auth_signin_status_failed">Error: sign in failed</string>
+
+    <string name="error_sign_in_failed">Sign in failed, see logs for details.</string>
+    <string name="multi_factor_signed_out">You are not signed in. To use this sample, first navigate to the Email/Password example to sign in and then return here to enroll in multi-factor auth.</string>
+    <string name="anonymous_sign_in">Anonymous Sign In</string>
+    <string name="account_linking">Account Linking</string>
+    <string name="link_account">Link Account</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="label_mainapp">TaskVenture</string>
+    <string name="logout">Logout</string>
+    <string name="taskventure_login_activity">Login</string>
+    <string name="app_my_account">My account</string>
+    <string name="app_my_custom_sets">My custom sets</string>
+    <string name="start_game">Start Game</string>
+    <string name="username">Username:</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="task_list_item_icon">task-list-item-icon</string>
+    <string name="fab_content_desc">Add task group</string>
+    <string name="create_task_group_name">Enter yours task group name: </string>
+    <string name="task_group_name">Task group name</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="ok">OK</string>
+    <string name="test">Test</string>
+    <string name="task_group_delete">Task Group delete</string>
+    <string name="failed">Failed</string>
+    <string name="add_custom_task">Add custom task</string>
+    <string name="time_task">Enter time if you want to make it time task</string>
+    <string name="task_time">Task time</string>
+    <string name="task_description">Task description</string>
+    <string name="enter_task_description">Enter task description</string>
+    <string name="select_task_group">Select task group</string>
+    <string name="player_name">Player Name</string>
+    <string name="task_for">Task for</string>
+    <string name="task_roll">task_roll</string>
+    <string name="task_accept">task_accept</string>
+    <string name="task_cancel">task_cancel</string>
+    <string name="score">Score</string>
+    <string name="game_score_result">Game score result</string>
+    <string name="add_task_to_custom_set">Add task to custom set</string>
+    <string name="add_task_to_custom">add_task_to_custom</string>
+    <string name="end_game">End game</string>
+    <string name="save_game">Save game</string>
+    <string name="add">ADD</string>
+    <string name="period_task">Enter period if person should do it every N time (min 10 seconds)</string>
+    <string name="time">Time:</string>
+    <string name="period">Period:</string>
+    <string name="task_period">Task period</string>
+    <string name="time_remain">Time remain:</string>
+    <string name="title_activity_payment">TaskVenture</string>
+
+    <string name="store_name" translatable="false">Auto T-Shirt Shop</string>
+
+    <!-- Payment notification -->
+    <string name="channel_name">Payment Channel</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="notification_title" translatable="false">Account top up</string>
+    <string name="notification_text">Your account balance in close to zero. Top it up now.</string>
+    <string name="pay_other_method">Top-up using a different method</string>
+
+    <!-- Checkout -->
+    <string name="googlepay_status_unavailable">Unfortunately, Google Pay is not available on this device.</string>
+    <string name="payments_show_name">Successfully received payment data for %s!</string>
+    <string name="gateway_replace_name_example">"Gateway name set to \"example\" - please modify Constants.java and replace it with your own gateway."</string>
+    <string name="checkout_item_description">Description</string>
+    <string name="premium_sets">Premium sets</string>
+    <string name="price">Price:</string>
+    <string name="description">Description:</string>
+
+</resources>

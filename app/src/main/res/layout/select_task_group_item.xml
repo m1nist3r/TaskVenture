@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp"
+    android:orientation="horizontal"
+    android:textAlignment="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewSelectTaskGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/fredoka_one"
+            android:gravity="center"
+            android:text="@string/test"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/checkBoxSelectTaskGroup"
+            app:layout_constraintStart_toEndOf="@+id/imageViewSelectTaskGroup"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageViewSelectTaskGroup"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/task_list_item_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/stat_notify_chat" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSelectTaskGroup"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_alignStart="@id/textViewSelectTaskGroup"
+            android:layout_alignEnd="@id/textViewSelectTaskGroup"
+            android:layout_alignParentTop="true"
+            android:clickable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
